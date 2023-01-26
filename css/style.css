@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: sans-serif;
 }
 
@@ -13,19 +13,21 @@ body {
 
 }
 
-main {
-position: relative;    
 
+.top {
+    background-color: black;
+    text-align: right;
+    height: 35px;
+    padding: 5px;
 }
 
-#grid {
+.top>a {
+    display: inline-block;
     background-color: gray;
     color: white;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 0px;
-    border-radius: 10px;
+    border-radius: 5px;
+    line-height: 30px;
+    vertical-align: middle;
 }
 
 i {
@@ -34,6 +36,11 @@ i {
 
 .container {
     max-width: 1170px;
+    margin: 50px auto;
     height: 100vh;
     background-color: aquamarine;
+    display: flex;
+
+
+
 }
