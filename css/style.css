@@ -15,10 +15,17 @@ body {
 
 
 .top {
-    background-color: black;
+    /* background-color: black; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
     text-align: right;
     height: 35px;
     padding: 5px;
+
+
 }
 
 .top>a {
@@ -28,6 +35,8 @@ body {
     border-radius: 5px;
     line-height: 30px;
     vertical-align: middle;
+    z-index: 9;
+
 }
 
 i {
@@ -38,10 +47,10 @@ i {
     max-width: 1170px;
     margin: 50px auto;
     height: 100vh;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-wrap: wrap;
-    overflow-y: scroll;
+    overflow: auto;
 
 
 
@@ -51,5 +60,14 @@ i {
     width: calc(100% / 7);
     padding: 5px;
 
+}
 
+.bottom {
+    height: 50px;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
 }
