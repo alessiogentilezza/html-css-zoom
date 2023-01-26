@@ -68,8 +68,7 @@ body {
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-around;
-    font-size: 18px;
+    justify-content: space-between;    font-size: 18px;
 }
 
 .video span {
@@ -83,13 +82,17 @@ body {
 .tools li {
     display: inline-block;
     padding: 0px 10px;
-        /* font-size: 12px; */
-
 }
 
 .end-meeting {
-    width: 50px;
     color: red;
+    background-color: #4A4A4A;
     height: 100%;
-
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
 }
+
+/* .tools li a {
+    text-decoration: none;
+} */
