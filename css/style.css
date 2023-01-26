@@ -15,17 +15,14 @@ body {
 
 
 .top {
-    /* background-color: black; */
+    background-color: red;
+    height: 30px;
     position: fixed;
-    top: 0;
+    top: 0; 
     left: 0;
     width: 100%;
     z-index: 9;
     text-align: right;
-    height: 35px;
-    padding: 5px;
-
-
 }
 
 .top>a {
@@ -34,19 +31,20 @@ body {
     color: white;
     border-radius: 5px;
     line-height: 30px;
-    vertical-align: middle;
     z-index: 9;
+    text-decoration: none;
 
 }
 
 i {
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
+
 
 .container {
     max-width: 1170px;
-    margin: 50px auto;
-    height: 100vh;
+    margin: 100px auto;
+    height: 100wh;
     /* background-color: aquamarine; */
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +61,7 @@ i {
 }
 
 .bottom {
-    height: 50px;
+    height: 80px;
     background-color: #222222;
     position: fixed;
     bottom: 0;
