@@ -31,14 +31,14 @@ body {
     background-color: gray;
     color: white;
     border-radius: 5px;
-    line-height: 30px;
+    line-height: 20px;
     z-index: 9;
     text-decoration: none;
 
 }
 
-i {
-    padding: 0px 10px;
+.top > a {
+    padding: 0px 5px;
 }
 
 
@@ -68,9 +68,28 @@ i {
     display: flex;
     color: white;
     align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
 }
 
 .video span {
-    font-size: 12px;
+    /* font-size: 12px; */
     padding: 0px 8px;
+}
+.video i {
+    padding: 0px 15px;
+}
+
+.tools li {
+    display: inline-block;
+    padding: 0px 10px;
+        /* font-size: 12px; */
+
+}
+
+.end-meeting {
+    width: 50px;
+    color: red;
+    height: 100%;
+
 }
