@@ -49,13 +49,13 @@ body {
     /* background-color: aquamarine; */
     display: flex;
     flex-wrap: wrap;
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 .container img {
-    width: calc(100% / 7);
-    /* width: 200px;
-    height: 100px; */
+    /* width: calc(100% / 7); */
+    width: 160px;
+    height: 100px;
     padding: 5px;
 }
 
